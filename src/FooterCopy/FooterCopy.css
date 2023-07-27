@@ -1,0 +1,35 @@
+.lastpart {
+  padding: 20px 0px;
+  background-color: #051922;
+}
+
+.last-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px 10px;
+}
+
+.last-col ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.last-col ul li a i,
+.p-tag {
+  color: #fff;
+}
+
+.last-col ul li a i {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.last-col ul li a i:hover,
+.p-tag a {
+  color: #f28123;
+}

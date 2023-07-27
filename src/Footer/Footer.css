@@ -1,0 +1,109 @@
+.footer {
+    background-color: #051922;
+    color: #fff;
+    padding: 150px 0;
+    border-bottom: 1px solid #f5f5f581;
+}
+
+.row-foot {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.col-foot {
+    padding: 0px 10px;
+    width: 25%;
+}
+
+.footer-box ul,
+.footer-box p {
+    padding: 20px 0px;
+}
+
+
+h2.widget-title {
+    font-size: 24px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+h2.widget-title:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 2px;
+    background-color: #F28123;
+    content: "";
+}
+
+.footer-box p {
+    color: #fff;
+    opacity: 0.7;
+    line-height: 1.8;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+}
+
+.footer-box ul li {
+    opacity: 0.7;
+    margin-bottom: 10px;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.footer-box.pages ul li {
+    position: relative;
+    padding-left: 20px;
+}
+
+.footer-box.pages ul li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #F28123;
+}
+
+.footer-box ul li a {
+    color: #fff;
+}
+
+.footer-box.subscribe form input[type=email] {
+    border: none;
+    background-color: #012738;
+    width: 78%;
+    padding: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: #fff;
+}
+
+.subscribe form button {
+    width: 20%;
+    border: none;
+    background-color: #012738;
+    color: #F28123;
+    padding: 14px 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    cursor: pointer;
+}
+
+.homelist li a:hover {
+    color: #F28123;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}

@@ -1,0 +1,52 @@
+.scroll {
+    padding: 100px 0px;
+}
+
+.client-avater {
+    margin-bottom: 20px;
+}
+
+.client-meta h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
+
+.client-meta h3 span {
+    display: block;
+    font-size: 70%;
+    margin-top: 10px;
+    color: #051922;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.testimonial-body {
+    font-size: 17px;
+    font-style: italic;
+    width: 700px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #999999;
+    margin-top: 20px;
+}
+
+.last-icon {
+    margin-top: 20px;
+    font-size: 25px;
+    opacity: 0.3;
+}
+
+.client-avater img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.client-avater {
+    width: 7%;
+    margin: auto;
+}
+
+.single-testimonial-slider {
+    text-align: center;
+}
